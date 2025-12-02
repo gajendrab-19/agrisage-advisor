@@ -12,7 +12,7 @@ export default {
         "2xl": "1400px",
       },
     },
-    extend: {
+extend: {
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        agri: {
+          green: "hsl(var(--agri-green))",
+          "green-light": "hsl(var(--agri-green-light))",
+          earth: "hsl(var(--agri-earth))",
+          soil: "hsl(var(--agri-soil))",
+        },
+      },
+      backgroundImage: {
+        "gradient-agri": "var(--gradient-agri)",
+        "gradient-earth": "var(--gradient-earth)",
       },
       borderRadius: {
         lg: "var(--radius)",
